@@ -1,0 +1,3 @@
+change ga code
+add mailto in get in touch
+replace logo image and rotating image
