@@ -1,3 +1,8 @@
-change ga code
-add mailto in get in touch
-replace logo image and rotating image
+make sure GA works
+add reviews
+add real prices
+add video
+add image or vid
+fix video on mob
+check that mail forward works
+make sure the domain works
