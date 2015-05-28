@@ -1,4 +1,4 @@
-make sure GA works
+make sure GA works (why do i see an old version of the site?!)
 add reviews
 add real prices
 add video
