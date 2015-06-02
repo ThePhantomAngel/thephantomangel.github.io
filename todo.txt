@@ -1,8 +1,6 @@
 make sure GA works (why do i see an old version of the site?!)
-add reviews
+rereviews
 add real prices
 add video
-add image or vid
-fix video on mob
-check that mail forward works
 make sure the domain works
+minify css
