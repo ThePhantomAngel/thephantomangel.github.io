@@ -1,6 +1,1 @@
-make sure GA works (why do i see an old version of the site?!)
-rereviews
-add real prices
-add video
-make sure the domain works
-minify css
+stretch image in video
