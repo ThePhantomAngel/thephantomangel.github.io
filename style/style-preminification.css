@@ -311,6 +311,12 @@ h2 {
 	text-align:center;
 }
 
+@media screen and (min-width: 810px) {
+.subheading {
+	margin-top:4%;
+}
+}
+
 h3 {
 display: block;
 -webkit-margin-before: 0.83em;
@@ -326,8 +332,9 @@ color: white;
 height:30px;
 margin-left:15%;
 margin-top:-2%;
-display:none;
 }
+
+
 
 @media screen and (max-width: 751px) {
 	.positionreviews{
@@ -338,14 +345,21 @@ display:none;
 
 @media screen and (min-width: 750px) and (max-width: 810px) {
 	.positionreviews{
-		height:100px;
+		height:90px;
 
 	}
 }
 
-@media screen and (min-width: 750px) and (max-width: 1100px) {
+@media screen and (min-width: 810px) and (max-width: 1100px) {
 	.positionreviews{
-		height:70px;
+		height:90px;
+
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1250px) {
+	.positionreviews{
+		height:50px;
 
 	}
 }
