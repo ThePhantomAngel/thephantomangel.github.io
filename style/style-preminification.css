@@ -162,30 +162,6 @@ float:left;
 	}
 }
 
-.buyoptionsbottom{
-
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:2%;
-	height: 15%;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.4);
-	 border: 2px solid;
-    border-radius: 25px;
-}
-
-@media screen and (max-width: 650px) {
-.buyoptionsbottom{
-	display:none;
-}
-}
-
-@media screen and (max-width: 1100px) and (min-width: 650px) {
-.buyoptionsbottom{
-	display:none;
-	}
-}
-
 .timetobuy{
 
 
