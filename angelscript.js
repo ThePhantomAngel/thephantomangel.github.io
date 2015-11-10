@@ -21,7 +21,7 @@ function startCountdown(chosenPaypal)
 	timer2=setTimeout(counttothree, 4000);
 	timer3=setTimeout(counttotwo, 6000);
 	timer4=setTimeout(counttoone, 8000);
-	//timer5=setTimeout(GoToURL, 9000);
+	timer5=setTimeout(GoToURL, 9000);
 }
 
 
