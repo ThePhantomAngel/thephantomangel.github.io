@@ -42,9 +42,6 @@ function GoToURL()
 
 function counttofour()
 {
-	if (whichPaypal=="P2") {
-		document.getElementById('countdownp2').innerHTML = "4";
-	}
 	if (whichPaypal=="P3") {
 		document.getElementById('countdownp3').innerHTML = "4";
 	}
@@ -54,9 +51,6 @@ function counttofour()
 }
 function counttothree()
 {
-	if (whichPaypal=="P2") {
-		document.getElementById('countdownp2').innerHTML = "3";
-	}
 	if (whichPaypal=="P3") {
 		document.getElementById('countdownp3').innerHTML = "3";
 	}
@@ -66,9 +60,6 @@ function counttothree()
 }
 function counttotwo()
 {
-	if (whichPaypal=="P2") {
-		document.getElementById('countdownp2').innerHTML = "2";
-	}
 	if (whichPaypal=="P3") {
 		document.getElementById('countdownp3').innerHTML = "2";
 	}
@@ -78,9 +69,6 @@ function counttotwo()
 }
 function counttoone()
 {
-	if (whichPaypal=="P2") {
-		document.getElementById('countdownp2').innerHTML = "1";
-	}
 	if (whichPaypal=="P3") {
 		document.getElementById('countdownp3').innerHTML = "1";
 	}
