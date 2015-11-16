@@ -1,0 +1,4 @@
+add extras (exitintent, google tag, optimizely...)
+setup A/B
+responsiveness
+lightbox
