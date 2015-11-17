@@ -1,5 +1,0 @@
-photos (and check sizes on responsive)
-
-add extras (exitintent, google tag, optimizely...)
-check on devices
-setup A/B
