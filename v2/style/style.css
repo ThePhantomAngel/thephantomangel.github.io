@@ -11,7 +11,10 @@
 	.leftimagelarge {
 		margin-left:auto;
 		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
 		width:80%;
+
 	}
 .pricetext {
 		font-size: 12x;
@@ -132,6 +135,9 @@ img {
 
 
 @media screen and (min-width: 1300px) {
+.lowerimage{
+	display:none;
+}
 .floatpaypals {
 	float:left;
 	width:50%;
@@ -139,7 +145,10 @@ img {
 	.leftimagelarge {
 		margin-left:auto;
 		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
 		width:60%;
+		
 	}
 .bottomleftpoints{
 	float: left;
@@ -238,6 +247,11 @@ img {
 	float:left;
 	width:50%;
 }	
+	.floatimages {
+		margin-top:10%;
+	float:left;
+	width:50%;
+}	
 	.topbartext {
 			font-size: 42px;
 			font-weight: 200;
@@ -324,6 +338,9 @@ img {
 	
 }
 @media screen and (max-width: 1300px) and (min-width: 750px) {
+.lowerimage{
+	display:none;
+}
 	.abouttextpad {
 		width:80%;
 		margin-left:auto;
@@ -408,6 +425,13 @@ img {
 }
 	.floatem {
 	margin-top:10%;
+	
+	float:left;
+	width:50%;
+}	
+	.floatimages {
+	margin-top:20%;
+	height:50%;
 	float:left;
 	width:50%;
 }	
@@ -521,6 +545,9 @@ img {
 }
 }
 @media screen and (max-width: 750px) {
+.upperimage{
+	display:none;
+}
 	.lightboxfluff {
 		display:none;
 	}
@@ -659,6 +686,13 @@ img {
 
 	.floatem {
 	margin-top:10%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}	
+	.floatimages {
+		margin-top:auto;
+	margin-bottom:auto;
 	width:90%;
 	margin-left:auto;
 	margin-right:auto;
