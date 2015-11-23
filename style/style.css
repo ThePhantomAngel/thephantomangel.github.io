@@ -201,8 +201,9 @@ img {
 }
 
 	.lightboxbottomheading {
-		font-size: 20px;
+		
 		font-weight: 200;
+		font-size: 20px;
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
