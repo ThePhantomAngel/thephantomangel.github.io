@@ -206,12 +206,13 @@ img {
 }
 
 	.lightboxbottomheading {
-		font-size: 20px;
+		
 		font-weight: 200;
+		font-size: 20px;
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
-		color: #7F7F7F;
+		color: #333;
 		font-style: normal;
 		width:100%;
 		margin-left:auto;
@@ -228,7 +229,7 @@ img {
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
-		color: #ED6C00;
+		color: #333;
 		font-style: stress;
 		width:100%;
 		margin-left:auto;
@@ -387,7 +388,7 @@ img {
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
-		color: #7F7F7F;
+		color: #333;
 		font-style: normal;
 		width:100%;
 		margin-left:auto;
@@ -404,7 +405,7 @@ img {
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
-		color: #ED6C00;
+		color: #333;
 		font-style: stress;
 		width:100%;
 		margin-left:auto;
@@ -556,7 +557,6 @@ img {
 	.lightboxfluff {
 		display:none;
 	}
-
 .floatpaypals {
 	margin-top:8%;
 	margin-left:auto;
@@ -569,7 +569,7 @@ img {
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
-		color: #7F7F7F;
+		color: #333;
 		font-style: normal;
 		width:100%;
 		margin-left:auto;
@@ -586,7 +586,7 @@ img {
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
-		color: #ED6C00;
+		color: #333;
 		font-style: stress;
 		width:100%;
 		margin-left:auto;
