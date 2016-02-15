@@ -34,6 +34,12 @@ function loadScript(url, callback)
 }
 
 var updateCurrencies = function() {
-	console.log("Welcome to our visitors from "+geoplugin_currencyCode()); 
-	document.getElementById('inspireprice').innerHTML='€43.99 (pre-order)';
+	//Euros
+	var inspireprice = '€43.99'
+	document.getElementById('inspireprice').innerHTML=inspireprice;
+	document.getElementById('phantom3price').innerHTML='€36.99 (pre-order)';
+	document.getElementById('phantom23price').innerHTML='€38.99 (pre-order)';
+	document.getElementById('postageprice').innerHTML='€4.5';
+	document.getElementById('postageprice').innerHTML='€4.5';
+	document.getElementById('inspirepriceintext').innerHTML='€4.5';
 };
