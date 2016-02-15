@@ -34,5 +34,5 @@ function loadScript(url, callback)
 }
 
 var updateCurrencies = function() {
-	console.log("Welcome to our visitors from "+geoplugin_city()+", "+geoplugin_countryName()); 
+	console.log("Welcome to our visitors from "+geoplugin_currencyCode()); 
 };
