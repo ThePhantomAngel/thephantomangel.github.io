@@ -44,4 +44,7 @@ var updateCurrencies = function() {
 	document.getElementById('phantom3priceintext').innerHTML=phantom3price;
 	document.getElementById('inspirepriceintext').innerHTML=inspireprice;
 	document.getElementById('postageprice').innerHTML='€4.5';
+	document.getElementById('paypalinspirebuttonid').value='AFAMEHZNH5UXW';
+	
+	
 };
