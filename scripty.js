@@ -35,11 +35,13 @@ function loadScript(url, callback)
 
 var updateCurrencies = function() {
 	//Euros
-	var inspireprice = '€43.99'
+	var inspireprice = '€43.99';
+	var phantom3price = '€35.99';
+	var phantom23price = '€37.99';
 	document.getElementById('inspireprice').innerHTML=inspireprice;
-	document.getElementById('phantom3price').innerHTML='€36.99 (pre-order)';
-	document.getElementById('phantom23price').innerHTML='€38.99 (pre-order)';
+	document.getElementById('phantom3price').innerHTML=phantom3price;
+	document.getElementById('phantom23price').innerHTML=phantom23price;
+	document.getElementById('phantom3priceintext').innerHTML=phantom3price;
+	document.getElementById('inspirepriceintext').innerHTML=inspireprice;
 	document.getElementById('postageprice').innerHTML='€4.5';
-	document.getElementById('postageprice').innerHTML='€4.5';
-	document.getElementById('inspirepriceintext').innerHTML='€4.5';
 };
