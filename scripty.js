@@ -35,5 +35,5 @@ function loadScript(url, callback)
 
 var updateCurrencies = function() {
 	console.log("Welcome to our visitors from "+geoplugin_currencyCode()); 
-	document.getElementById('inspireprice').value='€43.99 (pre-order)';
+	document.getElementById('inspireprice').innerHTML='€43.99 (pre-order)';
 };
