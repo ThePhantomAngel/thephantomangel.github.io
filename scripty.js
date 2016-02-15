@@ -34,17 +34,36 @@ function loadScript(url, callback)
 }
 
 var updateCurrencies = function() {
-	//Euros
-	var inspireprice = '€43.99';
-	var phantom3price = '€35.99';
-	var phantom23price = '€37.99';
-	document.getElementById('inspireprice').innerHTML=inspireprice;
-	document.getElementById('phantom3price').innerHTML=phantom3price;
-	document.getElementById('phantom23price').innerHTML=phantom23price;
-	document.getElementById('phantom3priceintext').innerHTML=phantom3price;
-	document.getElementById('inspirepriceintext').innerHTML=inspireprice;
-	document.getElementById('postageprice').innerHTML='€4.5';
-	document.getElementById('paypalinspirebuttonid').value='AFAMEHZNH5UXW';
 	
-	
+	if (geoplugin_currencyCode()=='EUR') {
+		//Euros
+		var inspireprice = '€43.99';
+		var phantom3price = '€35.99';
+		var phantom23price = '€37.99';
+		document.getElementById('inspireprice').innerHTML=inspireprice;
+		document.getElementById('phantom3price').innerHTML=phantom3price;
+		document.getElementById('phantom23price').innerHTML=phantom23price;
+		document.getElementById('phantom3priceintext').innerHTML=phantom3price;
+		document.getElementById('inspirepriceintext').innerHTML=inspireprice;
+		document.getElementById('postageprice').innerHTML='€4.5';
+		document.getElementById('paypalinspirebuttonid').value='AFAMEHZNH5UXW';
+		document.getElementById('paypalP3buttonid').value='QMYUGG2G8Y3MU';
+		document.getElementById('paypalP23buttonid').value='GAUQBSFK2D2HE';
+	}
+	if (geoplugin_currencyCode()=='GBP') {
+		//GBP
+		var inspireprice = '£33.99';
+		var phantom3price = '£27.99';
+		var phantom23price = '£29.99';
+		document.getElementById('inspireprice').innerHTML=inspireprice;
+		document.getElementById('phantom3price').innerHTML=phantom3price;
+		document.getElementById('phantom23price').innerHTML=phantom23price;
+		document.getElementById('phantom3priceintext').innerHTML=phantom3price;
+		document.getElementById('inspirepriceintext').innerHTML=inspireprice;
+		document.getElementById('postageprice').innerHTML='£3.99';
+		document.getElementById('paypalinspirebuttonid').value='NWKHACP87F3YQ';
+		document.getElementById('paypalP3buttonid').value='7DVAFHP7DJLW4';
+		document.getElementById('paypalP23buttonid').value='6MBEL3D6MEAV2';
+	}
 };
+
