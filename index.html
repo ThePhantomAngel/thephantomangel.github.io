@@ -19,7 +19,11 @@
 <meta property="og:site_name" content="Phantom Angel"/>
 <meta property="og:description" content=" Dedicated Phantom and Inspire batteries discharger. Maintain your batteries properly and maximize your flight time. The Angel helps you safely deep cycle discharge and storage discharge. "/>
 
-<SCRIPT async LANGUAGE="JavaScript" SRC="scripty.js"> </SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="scripty.js"> </SCRIPT>
+<script async language="JavaScript">
+	loadScript("http://www.geoplugin.net/javascript.gp", updateCurrencies);
+</script>
+
 </head>
 <body>
 <!-- Google Tag Manager -->
@@ -123,7 +127,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			Customized circuitry to protect your battery <br> 
 			Designed to accommodate essential heat dissipation <br>
 			Built with high quality materials for maximum durability <br><br> 
-			At a great price at $39.99 for Phantom 3 and $48.99 for Inspire.<br><br>
+			At a great price at <span id="phantom3priceintext">$39.99</span> for Phantom 3 and <span id="inspirepriceintext">$48.99</span> for Inspire.<br><br>
 			<b>Demonstration videos</b> <br>
 			<a href="https://vimeo.com/151639464" target="_blank">See the Inspire Angel in action.</a><br>
 			<a href="https://vimeo.com/151646979" target="_blank">See the Phantom Angel in action.</a><br><br>
@@ -257,7 +261,7 @@ s.setAttribute('data-timestamp', +new Date());
 					<br><br>
 					Just a couple of things to note:<br>
 					1) You can pay by credit card - you don't need a paypal account<br>
-					2) Postage is flat price worldwide ($4.99)<br>
+					2) Postage is flat price worldwide (<span id="postageprice">$4.99</span>)<br>
 					<br>
 
 					If you have any questions at all feel free to mail me direct at alex@phantomangel.rocks
@@ -270,23 +274,24 @@ s.setAttribute('data-timestamp', +new Date());
 				
 								<div class="floatpaypals">
 				<div class="lightboxbottomheading">Inspire</div>
-				<div class="pricetext"> $48.99 (pre-order)</div>
+				<div class="pricetext"><span id="inspireprice">$48.99</span> (pre-order)</div>
 				<div class="centrepaypalinlightbox">
 				<form id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="F8DFADS3NQYS8">
+					<input type="hidden" name="hosted_button_id" id="paypalinspirebuttonid" value="F8DFADS3NQYS8">
 					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
 </div>
+
 				</div>
 				<div class="floatpaypals">
 				<div class="lightboxbottomheading">Phantom 3 </div>
-				<div class="pricetext"> $39.99 (pre-order)</div>
+				<div class="pricetext"><span id="phantom3price">$39.99</span> (pre-order)</div>
 					<div class="centrepaypalinlightbox">
 					<form id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="4KNXW232Z8ZR4">
+					<input type="hidden" name="hosted_button_id" id="paypalP3buttonid" value="4KNXW232Z8ZR4">
 					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
@@ -294,11 +299,11 @@ s.setAttribute('data-timestamp', +new Date());
 				</div>
 								<div class="floatpaypals">
 				<div class="lightboxbottomheading">Phantom 2&3 </div>
-				<div class="pricetext"> $41.99 (pre-order)</div>
+				<div class="pricetext"><span id="phantom23price">$41.99</span> (pre-order)</div>
 					<div class="centrepaypalinlightbox">
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="4CBRU4LTJFQQE">
+					<input type="hidden" name="hosted_button_id" id="paypalP23buttonid" value="4CBRU4LTJFQQE">
 					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
