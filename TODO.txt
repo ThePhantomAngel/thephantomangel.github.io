@@ -1,0 +1,4 @@
+1) Add photos to main page and buy now
+2) Updated prices in main page and buy now and paypal. Incl. postage
+3) Check that GTM / paypal clicks work
+4) Do some optimizely stuff
