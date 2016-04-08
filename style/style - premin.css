@@ -414,6 +414,24 @@ img {
 		-webkit-filter: grayscale(0%);
 		filter: none;
 }
+
+	img.greysmall {
+		width:15%;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
+	
+	img.greysmall:hover{ 
+		filter: grayscale(0%);
+		-webkit-filter: grayscale(0%);
+		filter: none;
+}
 	
 
 	.centreimagesmall {
