@@ -23,6 +23,21 @@
 }
 
 
+	img.grey:hover{ 
+		filter: grayscale(0%);
+		-webkit-filter: grayscale(0%);
+		filter: none;
+}
+
+	
+	img.greysmall:hover{ 
+		filter: grayscale(0%);
+		-webkit-filter: grayscale(0%);
+		filter: none;
+}
+
+
+
 	.leftimagelarge {
 		margin-left:auto;
 		margin-right:auto;
@@ -174,6 +189,30 @@ img {
 }
 
 @media screen and (min-width: 1300px) {
+	img.grey {
+		width:19%;
+		margin-left:8%;
+		margin-right:8%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
+	
+	img.greysmall {
+		width:15%;
+		margin-left:8%;
+		margin-right:8%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}	
+	
 .lowerimage{
 	display:none;
 }
@@ -392,13 +431,53 @@ img {
 		width:450px;
 	}
 	.centreimagelogo {
-		width:500px;
+		width:900px;
 		margin-left:auto;
 		margin-right:auto;
 	}
 	
 	img.grey {
 		width:25%;
+		margin-left:4%;
+		margin-right:4%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
+	
+	img.greysmall {
+		width:20%;
+		margin-left:4%;
+		margin-right:4%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
+	
+
+	.centreimagesmall {
+		margin-left:auto;
+		margin-right:auto;
+		width:230px;
+	}	
+	
+}
+@media screen and (max-width: 1300px) and (min-width: 750px) {
+
+	.centreimagelogo {
+		width:900px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	img.grey {
+		width:20%;
 		margin-left:5%;
 		margin-right:5%;
 		margin-top:auto;
@@ -409,12 +488,6 @@ img {
     -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
 	}
 	
-	img.grey:hover{ 
-		filter: grayscale(0%);
-		-webkit-filter: grayscale(0%);
-		filter: none;
-}
-
 	img.greysmall {
 		width:15%;
 		margin-left:5%;
@@ -427,21 +500,6 @@ img {
     -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
 	}
 	
-	img.greysmall:hover{ 
-		filter: grayscale(0%);
-		-webkit-filter: grayscale(0%);
-		filter: none;
-}
-	
-
-	.centreimagesmall {
-		margin-left:auto;
-		margin-right:auto;
-		width:230px;
-	}	
-	
-}
-@media screen and (max-width: 1300px) and (min-width: 750px) {
 .lowerimage{
 	display:none;
 }
@@ -674,6 +732,41 @@ img {
 }
 }
 @media screen and (max-width: 750px) {
+		
+	.centreimagelogo {
+		width:90%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+		
+		
+		img.grey {
+		width:33%;
+		margin-left:33%;
+		margin-right:33%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
+	
+
+
+	img.greysmall {
+		width:33%;
+		margin-left:33%;
+		margin-right:33%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
+	
+
 .upperimage{
 	display:none;
 }
