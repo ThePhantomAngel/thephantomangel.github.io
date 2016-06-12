@@ -29,6 +29,12 @@
 		filter: none;
 }
 
+	
+	img.greysmall:hover{ 
+		filter: grayscale(0%);
+		-webkit-filter: grayscale(0%);
+		filter: none;
+}
 
 
 
@@ -184,9 +190,9 @@ img {
 
 @media screen and (min-width: 1300px) {
 	img.grey {
-		width:14%;
-		margin-left:5%;
-		margin-right:5%;
+		width:16%;
+		margin-left:8%;
+		margin-right:8%;
 		margin-top:auto;
 		margin-bottom:auto;
 	filter: grayscale(100%);
@@ -194,7 +200,18 @@ img {
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
 	}
-
+	
+	img.greysmall {
+		width:13%;
+		margin-left:8%;
+		margin-right:8%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}	
 	
 .lowerimage{
 	display:none;
@@ -414,7 +431,7 @@ img {
 		width:450px;
 	}
 	.centreimagelogo {
-		width:40%;
+		width:900px;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -430,15 +447,15 @@ img {
 @media screen and (max-width: 1300px) and (min-width: 750px) {
 
 	.centreimagelogo {
-		width:70%;
+		width:800px;
 		margin-left:auto;
 		margin-right:auto;
 	}
 	
 	img.grey {
-		width:14%;
-		margin-left:5%;
-		margin-right:5%;
+		width:16%;
+		margin-left:8%;
+		margin-right:8%;
 		margin-top:auto;
 		margin-bottom:auto;
 	filter: grayscale(100%);
@@ -447,7 +464,18 @@ img {
     -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
 	}
 	
-
+	img.greysmall {
+		width:13%;
+		margin-left:8%;
+		margin-right:8%;
+		margin-top:auto;
+		margin-bottom:auto;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
+	
 .lowerimage{
 	display:none;
 }
@@ -682,17 +710,17 @@ img {
 @media screen and (max-width: 750px) {
 		
 	.centreimagelogo {
-		width:80%;
+		width:90%;
 		margin-left:auto;
 		margin-right:auto;
 	}
 		
 		
 		img.grey {
-		width:29%;
-		margin-left:10%;
-		margin-right:10%;
-		margin-top:2%;
+		width:33%;
+		margin-left:33%;
+		margin-right:33%;
+		margin-top:1%;
 		margin-bottom:1%;
 	filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
@@ -701,6 +729,18 @@ img {
 	}
 	
 
+
+	img.greysmall {
+		width:33%;
+		margin-left:33%;
+		margin-right:33%;
+		margin-top:1%;
+		margin-bottom:1%;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all 0.5s ease;  /* Transition for Webkit browsers */		
+	}
 	
 
 .upperimage{
