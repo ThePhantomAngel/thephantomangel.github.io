@@ -1,0 +1,4 @@
+1) Add inside a 50% div with margin left and right auto
+2) Images should be as big as poss but up to 200px width or height
+3) Make sure their width and height are the same (canvas size)
+4) Add 30px margin to each image left and right
