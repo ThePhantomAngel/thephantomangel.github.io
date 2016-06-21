@@ -109,13 +109,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="greybackground sectionheight sectionheadpadding">
 	<div class="centretextalign centretext textquoteheight textsizequote textlightgrey">Trusted by professionals and hobbyists alike, including...</div>
-	<div class="centreimagelogo">
-		<a href="http://www.olympicaerialsolutions.com" target="_blank"><img class="grey" src="./images/logos/OAS.png" alt="Logos"></a>
-		<a href="http://www.kopteripojat.fi" target="_blank"><img class="grey" src="./images/logos/kopteri.jpg" alt="Logos"></a>
-		<a href="http://www.elevatedimaging.systems" target="_blank"><img class="grey" src="./images/logos/elevated.png" alt="Logos"></a>
-		<a href="https://www.youtube.com/user/DjBacZ4" target="_blank"><img class="grey" src="./images/logos/beyond.png" alt="Logos"></a>
+		<!-- Important Owl stylesheet -->
+		<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+		 <!-- Default Theme -->
+		<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+		 <!--  jQuery 1.7+  -->
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+		 <!-- Include js plugin -->
+		<script src="assets/owl-carousel/owl.carousel.js"></script>	
+<div class="owlwidth">			
+		<div id="owl-example" class="owl-carousel">
+		  <div> <a href="http://www.olympicaerialsolutions.com" target="_blank"><img class="grey" src="./images/logos/OAS.png" alt="Logos"></a> </div>
+		  <div> <a href="http://www.aerovue.co.uk" target="_blank"><img class="grey" src="./images/logos/aeroview.png" alt="Logos"></a> </div>
+		  <div> <a href="http://www.kopteripojat.fi" target="_blank"><img class="grey" src="./images/logos/kopteri.png" alt="Logos"></a> </div>
+		  <div> <a href="http://www.elevatedimaging.systems" target="_blank"><img class="grey" src="./images/logos/elevated.png" alt="Logos"></a> </div>
+		  <div> <a href="https://www.youtube.com/user/DjBacZ4" target="_blank"><img class="grey" src="./images/logos/beyond.png" alt="Logos"></a> </div>
+		  <div> <a href="http://www.rupestrian.com/quadcopter.html" target="_blank"><img class="grey" src="./images/logos/rupestrian.png" alt="Logos"></a> </div>
+		</div>
+</div>
 	</div>
 </div>
+
+    <script>
+$(document).ready(function() {
+ 
+  $("#owl-example").owlCarousel();
+ 
+});
+    </script>
 
 <div class="whitebackground sectionheight sectionheadpadding">	
 
@@ -236,17 +257,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div id="disqus_thread"></div>
 <script>
-/**
-* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
+(function() { 
 var d = document, s = d.createElement('script');
 
 s.src = '//phantomangel.disqus.com/embed.js';
@@ -259,9 +270,10 @@ s.setAttribute('data-timestamp', +new Date());
 
 </div>
 
-<link rel="stylesheet" type="text/css" href="./style/style.css"/>
+
      		
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-565347791fa69f14" async="async"></script> 			
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-565347791fa69f14" async="async"></script> 	
+
+<link rel="stylesheet" type="text/css" href="./style/style.css"/>
 </body>
 </html>

@@ -14,17 +14,19 @@
 }
 /* display none until init */
 .owl-carousel{
+	
 	display: none;
 	position: relative;
-	width: 100%;
 	-ms-touch-action: pan-y;
 }
 .owl-carousel .owl-wrapper{
+
 	display: none;
 	position: relative;
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer{
+	
 	overflow: hidden;
 	position: relative;
 	width: 100%;
@@ -39,6 +41,8 @@
 	
 .owl-carousel .owl-item{
 	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
