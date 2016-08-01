@@ -19,7 +19,7 @@
 <meta property="og:site_name" content="Phantom Angel"/>
 <meta property="og:description" content=" Dedicated Phantom and Inspire batteries discharger. Maintain your batteries properly and maximize your flight time. The Angel helps you safely deep cycle discharge and storage discharge. "/>
 <meta name="google-site-verification" content="7sEOHM7ByHDXJrfFz-QSAKpJz2V3iVbzT87PjQvMMMY" />
-
+<SCRIPT async LANGUAGE="JavaScript" SRC="scripty.js"> </SCRIPT>
 </head>
 <body>
 <!-- Google Tag Manager -->
@@ -37,7 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		Phantom & Inspire Angel
 	</div>
 	<div class="topbartextright">
-			<a id="firstbutton" href="./buynowpage.html">Buy now</a>
+			<a id="firstbutton" onclick="trackBuyNow" href="./buynowpage.html">Buy now</a>
 	</div>
 </div>
     
@@ -244,7 +244,7 @@ $(document).ready(function() {
 
 <div class="greybackground sectionheight sectionheadpadding">	
 	<div class="centretextalign centretext textquoteheight textsizequote textlightgrey">
-		<a id="firstbutton" class="largerlink" href="./buynowpage.html">Buy now</a>
+		<a id="firstbutton" class="largerlink" onclick="trackBuyNow()" href="./buynowpage.html">Buy now</a>
 	</div>
 </div>	
 
@@ -273,5 +273,24 @@ s.setAttribute('data-timestamp', +new Date());
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-565347791fa69f14" async="async"></script> 	
 
 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1417991518214776');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1417991518214776&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+
 </body>
 </html>
