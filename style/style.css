@@ -405,6 +405,10 @@ img {
 	.textsizequote {
 			font-size:30px;
 	}
+	.textsizequotesmall {
+			font-size:20px;
+	}	
+	
 	.abouttextpad {
 		width:60%;
 		margin-left:auto;
@@ -488,6 +492,9 @@ img {
 	.textsizequote {
 			font-size:20px;
 	}
+	.textsizequotesmall {
+			font-size:16px;
+	}	
 	.headingtext {
 			font-size:40px;
 	}
