@@ -1,3 +1,14 @@
+h1 {
+	margin:0px;
+	font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;
+	font-weight:normal;
+}
+h2 {
+	margin:0px;
+	font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;
+	font-weight:normal;
+}
+
 .owlwidth{
 	width: 50%;
 			margin-left:auto;
@@ -418,9 +429,10 @@ img {
 	.quotetext {
 			font-size:42px;
 	}
-	.headingtext {
-			font-size:60px;
-	}		
+	h1 {
+		font-size:60px;
+	}
+	
 		.headingtextbuynow {
 			font-size:60px;
 	}	
@@ -495,7 +507,7 @@ img {
 	.textsizequotesmall {
 			font-size:12px;
 	}	
-	.headingtext {
+	h1 {
 			font-size:40px;
 	}
 	.headingtextbuynow {
