@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /owl-carousel/
+Disallow: /Prerollback on 12062016/
+Disallow: /v1/
+Disallow: /temp/
