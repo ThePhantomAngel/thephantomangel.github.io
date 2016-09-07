@@ -15,6 +15,13 @@ h2 {
 		margin-right:auto;
 }
 
+.floatreviews {
+	margin-top:1%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 @media screen and (max-height: 720px) {
 .owlwidth{
 	width: 70%;
