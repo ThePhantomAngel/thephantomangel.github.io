@@ -4,6 +4,7 @@
       xmlns:fb="https://www.facebook.com/2008/fbml">
 
 <head>
+<script src="nopaypalmodal.js"></script>
 <script src="https://cdn.optimizely.com/js/3358450284.js"></script>
 <meta charset="UTF-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
@@ -18,6 +19,7 @@
 <meta property="og:image" content="https://gallery.mailchimp.com/d31957626e1d80c567270b0a7/images/71196192-ecaa-40c5-9879-14dcbd13c991.png"/>
 <meta property="og:site_name" content="Phantom Angel"/>
 <meta property="og:description" content=" Dedicated Inspire, Mavic and Phantom batteries discharger. Maintain your batteries properly and maximize your flight time. The Angel helps you safely deep cycle discharge and storage discharge. "/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
 
 </head>
 <body>
@@ -71,7 +73,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<br><br>
 </div>	
 
+<!-- No paypal no problem modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closemodal()">&times;</span>
+		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
+	You can pay without a Paypal account!
+	</div>
+	<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
+    For some reason, Paypal makes it quite hard to see how to pay without creating a Paypal account.</br>
+	The good news is that you can certainly pay with debit or credit card, via Paypal, without having to create an account.</br>
+	People from different countries may see slightly different screens but this should give you the idea:</br>
+	</div>
+		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
+	STEP 1 - Click on "Create account"
+	<br>
+	<img class="paypalimages" src="./images/paypal1.png" alt="Phantom batt"></br>
+	</div>
+			<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
+	STEP 2 - Continue with your guest checkout, no need to create an account!
+	<br>
+	<img  class="paypalimages" src="./images/paypal2.png" alt="Phantom batt">
+	</div>
 
+	<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
+	If for whatever reason this doesn't work for you please get in touch with me at alex@phantomangel.rocks and we'll figure something out!
+	</div>
+</div>
+</div>
 
 <div class="greybackground sectionheight sectionheadpadding">	
 	<div class="centretextalign centretext textquoteheight quotetext textlightgrey">
@@ -79,7 +108,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 </div>	
 
+
 <div class="whitebackground sectionheight">	
+
 
 	<div class="floatimagesbuynow2">
 		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
@@ -88,14 +119,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
 				Angel for all types of Inspire 1 batteries<br>
-			<div class="pricetext">$99.99 (made to order)</div>			
+				
+				<div class="pricetext">$99.99 (made to order)</div>			
+				
 								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="GVPDGQY6PVZ8E">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
+					
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+					
 					</form>
 		</div>
+				<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
+		</div>
+
 	</div>
 
 	<div class="floatimagesbuynow2">
@@ -109,11 +148,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="7RU4UDVPVHK44">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
 		</div>
-	</div>
+				<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
+		</div>
+
+		</div>
 
 	<div class="floatimagesbuynow2">
 		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
@@ -126,9 +169,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="6YFBSUBRXYKBG">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
+		</div>
+		<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
 		</div>
 	</div>
 
@@ -143,9 +189,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="EGVXRLMT9B854">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
+		</div>
+		<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
 		</div>
 	</div>	
 	
@@ -160,10 +209,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="XVUFQVY272Y34">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
 		</div>
+		<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
+		</div>
+
 	</div>
 	
 	
@@ -179,10 +232,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="Q4N2HKM52WLYC">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
 		</div>
+		<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
+		</div>
+
 	</div>
 
 	<div class="floatimagesbuynow2">
@@ -196,10 +253,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="RXHUL5A8YWAJ8">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
 		</div>
+		<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
+		</div>
+
 	</div>
 
 	<div class="floatimagesbuynow2">
@@ -222,30 +283,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </table>
 </div>
-<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"></span>
 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 </form>
 		</div>
-	</div>
-	
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Freefly Movi Pro Angel
+		<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
 		</div>
 
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for Freefly Move Pro batteries<br>
-			<div class="pricetext">$99.99 (made to order)</div>			
-								<form onclick="trackPaypalClick()" id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="VF9VH7UCLBJ3S">
-					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
-		</div>
-	</div>	
+	</div>
 	
-	
+
 	<div class="floatimagesbuynow2">
 		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
 			Other drones
@@ -267,10 +315,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </select> </td></tr>
 </table>
 </div>
-<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"></span>
 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 </form>
 		</div>
+		<div class="pricetext">
+			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
+		</div>
+
 	</div>	
 
 			<br style="clear: left;" />
