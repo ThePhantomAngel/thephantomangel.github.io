@@ -1,3 +1,88 @@
+.mobileprice {
+	display:none;
+}
+
+
+.comboangeltable {
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	
+}
+
+.comboangelnamecolumn {
+    width: 150px; /* Could be more or less, depending on screen size */
+	font-weight: bold;
+	font-size:18px;
+}
+.combopricecolumn {
+    width: 150px; /* Could be more or less, depending on screen size */
+}
+
+.combopaymentcolumn {
+    width: 150px; /* Could be more or less, depending on screen size */
+	text-align:center;
+}
+
+.comboinputcolumn {
+    width: 150px; /* Could be more or less, depending on screen size */
+	text-align:center;
+}
+
+
+.singleangeltable {
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	
+}
+
+tr {
+	text-align:left;
+	height: 70px;
+}
+
+td {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.stripe-button-el {
+padding:0px;
+}
+
+.stripe-button-el span {
+background-image: linear-gradient(#ed6c00,#ed6c00 85%,#ed6c00);
+}
+
+.angelnamecolumn {
+    width: 150px; /* Could be more or less, depending on screen size */
+	font-weight: bold;
+	font-size:18px;
+	
+}
+.pricecolumn {
+    width: 150px; /* Could be more or less, depending on screen size */
+}
+
+
+
+.priceitself {
+	font-size:16px;
+}
+
+.postageprice {
+	font-size:13px;
+}
+
+.paymentcolumn {
+    width: 150px; /* Could be more or less, depending on screen size */
+	text-align:center;
+}
+
+.tableuppermargin {
+		margin-top:2%;
+	}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -73,6 +158,69 @@ h2 {
 
 }
 }
+
+@media screen and (max-width: 800px) {
+.mobileprice {
+	display:block;
+	font-weight:normal;
+}
+
+.angelnamecolumn {
+    width: 70%; /* Could be more or less, depending on screen size */
+	font-weight: bold;
+	font-size:18px;
+	
+}
+
+#combosubtext {
+	display:none;
+}
+
+.singleangeltable {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	
+}	
+	
+	.comboangeltable {
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+		
+	}
+
+	.comboangelnamecolumn {
+		display:none;
+		
+	}
+	.combopricecolumn {
+		width: 50%; /* Could be more or less, depending on screen size */
+		display:none;
+	}
+
+	.combopaymentcolumn {
+		width: 50%; /* Could be more or less, depending on screen size */
+		text-align:center;
+	}
+
+	.comboinputcolumn {
+		width: 50%; /* Could be more or less, depending on screen size */
+		text-align:center;
+	}
+
+
+	.paymentcolumn {
+		width: 30%; /* Could be more or less, depending on screen size */
+	}
+	
+	.pricecolumn {
+		display:none;
+	}
+	
+	
+}
+
 
 @media screen and (max-width: 1300px) and (min-width: 720px) {
 .owlwidth{

@@ -1,0 +1,1 @@
+//To add a new angel or change the price I need to change it in THREE places: a) html - the descirption in the form action /payment?description=... b) the amount etc in the form below that c) in the webtask, add an extra if
