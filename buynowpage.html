@@ -4,8 +4,7 @@
       xmlns:fb="https://www.facebook.com/2008/fbml">
 
 <head>
-<script src="nopaypalmodal.js"></script>
-<script src="https://cdn.optimizely.com/js/3358450284.js"></script>
+<script src="buynowjs.js"></script>
 <meta charset="UTF-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title>Inspire, Mavic and Phantom Angel</title>
@@ -72,35 +71,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<br><br>
 </div>	
 
-<!-- No paypal no problem modal -->
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closemodal()">&times;</span>
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-	You can pay without a Paypal account!
-	</div>
-	<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-    For some reason, Paypal makes it quite hard to see how to pay without creating a Paypal account.</br>
-	The good news is that you can certainly pay with debit or credit card, via Paypal, without having to create an account.</br>
-	People from different countries may see slightly different screens but this should give you the idea:</br>
-	</div>
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-	STEP 1 - Click on "Create account"
-	<br>
-	<img class="paypalimages" src="./images/paypal1.png" alt="Phantom batt"></br>
-	</div>
-			<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-	STEP 2 - Continue with your guest checkout, no need to create an account!
-	<br>
-	<img  class="paypalimages" src="./images/paypal2.png" alt="Phantom batt">
-	</div>
-
-	<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-	If for whatever reason this doesn't work for you please get in touch with me at alex@phantomangel.rocks and we'll figure something out!
-	</div>
-</div>
-</div>
-
 <div class="greybackground sectionheight sectionheadpadding">	
 	<div class="centretextalign centretext textquoteheight quotetext textlightgrey">
 		Choose your Angel
@@ -113,223 +83,240 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	<div class="floatimagesbuynow2">
 		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Inspire 1 Angel
+			Angel for one type of drone
+			<br>
+			<span class="postageprice tipcontenttext">Angels work with all versions of each type of drone. E.g. the Mavic 1 Angel works with all versions of the Mavic 1</span>
 		</div>
+		
 
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for all types of Inspire 1 batteries<br>
-				
-				<div class="pricetext">$99.99 (made to order)</div>			
-				
-								<form id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="GVPDGQY6PVZ8E">
-					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
-					
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					
+		<div class="centretextalign tableuppermargin textlightgrey">
+				<table class="singleangeltable">
+				<tr><td class="angelnamecolumn" > Mavic 2</td><td class="pricecolumn priceitself ">TBD</td><td class="paymentcolumn">
+						Coming soon!<br><a href="mailto:alex@phantomangel.rocks?subject=Keep me posted when the Mavic 2 Angel is available!">Join the waiting list</a>
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Mavic Air <span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=MavicAir" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="Mavic Air Angel"
+							data-image="https://phantomangel.rocks/images/logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
 					</form>
-		</div>
-				<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Mavic 1<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Mavic1" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="Mavic 1 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Inspire 2<span class="mobileprice postageprice">$119.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$119.99  <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire2" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="12949"
+							data-currency="usd"
+							data-name="Inspire 2 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Inspire 1<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire1" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="Inspire 1 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Phantom 4<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom4" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="Phantom 4 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Phantom 3<span class="mobileprice postageprice">$89.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$89.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom3" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="9949"
+							data-currency="usd"
+							data-name="Phantom 3 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Phantom 2<span class="mobileprice postageprice">$79.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$79.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom2" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="8949"
+							data-currency="usd"
+							data-name="Phantom 2 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Matrice 600<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice600" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="Matrice 600 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Matrice 200<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice200" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="Matrice 200 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Autel X-Star<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Autel" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="XStar Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				<tr><td class="angelnamecolumn" > Angel with XT-60<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
+					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=XT60" method="POST">
+						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="10949"
+							data-currency="usd"
+							data-name="XT60 Angel"
+							data-image="logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>				
+				</td></tr>
+				</table>
 		</div>
 
 	</div>
 
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Inspire 2 Angel
-		</div>
 
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for all types of Inspire 2 batteries<br>
-			<div class="pricetext">$119.99 (made to order)</div>			
-								<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="7RU4UDVPVHK44">
-					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
-		</div>
-				<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-
-		</div>
-
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Mavic Air Angel
-		</div>
-
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for Mavic Air batteries<br>
-			<div class="pricetext">$99.99 (made to order)</div>			
-								<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="6YFBSUBRXYKBG">
-					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
-		</div>
-		<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-	</div>
-
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Mavic 1 Angel (all Mavic 1 versions except for Air)
-		</div>
-
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for all types of Mavic, Mavic Pro and Mavic Pro Platinum batteries<br>
-			<div class="pricetext">$99.99 (made to order)</div>			
-								<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="EGVXRLMT9B854">
-					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
-		</div>
-		<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-	</div>	
-	
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Phantom 4 Angel
-		</div>
-
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for all types of P4, P4 Advanced and P4 Pro batteries<br>
-				<div class="pricetext">$99.99 (made to order)</div>	
-								<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="XVUFQVY272Y34">
-					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
-		</div>
-		<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-
-	</div>
-	
-	
-
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Phantom 3 Angel
-		</div>
-
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for all types of Phantom 3 batteries for all versions of the P3<br>
-			<div class="pricetext">$89.99 (made to order)</div>			
-								<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="Q4N2HKM52WLYC">
-					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
-		</div>
-		<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-
-	</div>
-
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Phantom 2 Angel
-		</div>
-
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Angel for all types of Phantom 2 batteries<br>
-			<div class="pricetext">$79.99 (made to order)</div>			
-								<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="RXHUL5A8YWAJ8">
-					<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-					</form>
-		</div>
-		<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-
-	</div>
-
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Combo Angel
-		</div>
-
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Custom made Angel to support two DJI drones<br>
-				Same specifications as the individual Angels<br>
-				Good if you use multiple drones and travel a lot<br>
-			<div class="pricetext">$138.99 (made to order)</div>	
-					<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="3VFPUAQ3EE6VJ">
-<div class="centrepaypaloptions">
-<table>
-
-<tr><td><input type="hidden" name="on0" value="Please specify two drones">Please specify two drones</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-
-</table>
-</div>
-<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"></span>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-		</div>
-		<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-
-	</div>
-	
-
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Other drones
-		</div>
-
-		<div class="centretextalign text1heightbuynow tipcontenttext textlightgrey">
-				Custom-made Angel for non-standard drones (see list below)<br>
-			<div class="pricetext">$99.99 (made to order)</div>	
-					<form  id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="S9ABB8DTBNL58">
-<div class="centrepaypaloptions">
-<table>
-<tr ><td><input type="hidden" name="on0" value="Select combo:">Select combo:</td></tr><tr><td><select name="os0">
-	<option value="Autel Robotics X-Star & premium">Autel Robotics X-Star & premium </option>
-	<option value="Matrice 600 TB47S and TB48S">Matrice 600 TB47S and TB48S </option>
-	<option value="Angel with XT60 connector">Angel with XT60 connector </option>
-</select> </td></tr>
-</table>
-</div>
-<span data-balloon-length="xlarge" data-balloon="Note: You don't need to have a Paypal account... You can pay by debit/credit card. For more info click on the 'No paypal account? No problem!' link below." data-balloon-pos="right"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"></span>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-		</div>
-		<div class="pricetext">
-			No paypal account? No problem! (<a href="#" id="findoutmore" onclick="openmodal()">find out more</a>)
-		</div>
-
-	</div>	
 
 			<br style="clear: left;" />
 	<br><br>
 </div>	
 
+	<div class="floatimagesbuynow2">
+		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
+			Combo Angel for two types of drone
+			<span class="mobileprice postageprice">$138.99</br>+$9.50 global postage</span>
+			<br>
+			<span id="combosubtext"class="postageprice tipcontenttext">Let me know which two drones you'd like your Combo Angel to support</span>
+		</div>
+		
+
+		<div class="centretextalign tableuppermargin textlightgrey">
+				<table class="comboangeltable">
+				
+				<tr><td class="comboangelnamecolumn" >Combo Angel</td><td class="combopricecolumn priceitself priceitself">$138.99 <br><span class="postageprice">(+$9.50 global postage)</span></td>
+				<td class="comboinputcolumn">
+							
+  				<form>
+					  Please specify two drones: <input style="border-color: #ed6c00; border-style:solid" id="combochoice" type="text" name="combochoice" oninput="startedTyping()"><br>
+					</form>
+				</td>
+				
+				<td class="combopaymentcolumn">
+					<form id="comboform" action="bla" method="POST">
+							<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
+							data-amount="14849"
+							data-currency="usd"
+							data-name="Combo Angel"
+							data-image="https://phantomangel.rocks/images/logoforstripe.png"
+							data-description="Including global postage"
+							data-shipping-address="true"
+							data-label="Order now"
+							data-locale="auto">
+						</script>
+					</form>
+				</td></tr>
+				</table>
+		</div>
+
+	</div>
+<br><br><br>
+
+
+			<br style="clear: left;" />
+	<br><br>
+</div>		
 	
-	
-			
+
 
 
 
