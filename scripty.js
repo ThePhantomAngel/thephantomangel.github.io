@@ -7,6 +7,7 @@ ga('send', 'event', 'ClickedBuyNow', 'ClickedBuyNow', 'ClickedBuyNow');
 function trackPaymentClick()
 {
 	ga('send', 'event', 'ClickedToPay', 'ClickedToPay', 'ClickedToPay');
+	console.log("Pressed to pay");
 }
 
 function startedTyping() {
