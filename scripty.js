@@ -1,13 +1,18 @@
 function trackBuyNow()
 {
-fbq('track', 'Lead');
-ga('send', 'event', 'ClickedBuyNow', 'ClickedBuyNow', 'ClickedBuyNow');
+	fbq('track', 'Lead');
+	gtag('event', 'ClickedBuyNow', {
+	  'event_category': 'ClickedBuyNow',
+	  'event_label': 'ClickedBuyNow'
+	});
 }
 
 function trackPaymentClick()
 {
-	ga('send', 'event', 'ClickedToPay', 'ClickedToPay', 'ClickedToPay');
-	console.log("Pressed to pay");
+	gtag('event', 'ClickedToPay', {
+	  'event_category': 'ClickedToPay',
+	  'event_label': 'ClickedToPay'
+	});
 }
 
 function startedTyping() {
