@@ -4,13 +4,21 @@
       xmlns:fb="https://www.facebook.com/2008/fbml">
 
 <head>
-<script src="buynowjs.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64830871-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-64830871-2');
+</script>
+<script src="scripty.js"></script>
 <meta charset="UTF-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title>Inspire, Mavic and Phantom Angel</title>
 <meta name="description" content="Inspire, Mavic and Phantom batteries discharger.">
 <meta name="keywords" content="DJI, Inspire, Mavic, Phantom , LiPo, battery, discharge, discharger">
-<meta name="author" content="Alex Protogerellis">
 <link rel="shortcut icon" href="images/smallicon.ico">
 <meta property="og:title" content="Phantom Angel"/>
 <meta property="og:type" content="product"/>
@@ -21,15 +29,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
 </head>
 <body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PKPJQ9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PKPJQ9');</script>
-<!-- End Google Tag Manager -->
+
 <div class="topbarbuynow">
 	<div class="topbartext">
 		<a href="http://phantomangel.rocks">Inspire, Mavic and Phantom Angel</a>
@@ -95,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						Coming soon!<br><a href="mailto:alex@phantomangel.rocks?subject=Keep me posted when the Mavic 2 Angel is available!">Join the waiting list</a>
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Mavic Air <span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trythis()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=MavicAir" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=MavicAir" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -110,7 +110,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Mavic 1<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Mavic1" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Mavic1" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -125,7 +125,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Inspire 2<span class="mobileprice postageprice">$119.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$119.99  <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire2" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire2" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="12949"
@@ -140,7 +140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Inspire 1<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire1" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire1" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -155,7 +155,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Phantom 4<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom4" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom4" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -170,7 +170,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Phantom 3<span class="mobileprice postageprice">$89.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$89.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom3" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom3" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="9949"
@@ -185,7 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Phantom 2<span class="mobileprice postageprice">$79.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$79.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom2" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom2" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="8949"
@@ -200,7 +200,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Matrice 600<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice600" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice600" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -215,7 +215,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Matrice 200<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice200" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice200" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -230,7 +230,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Autel X-Star<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Autel" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Autel" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -245,7 +245,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</form>				
 				</td></tr>
 				<tr><td class="angelnamecolumn" > Angel with XT-60<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=XT60" method="POST">
+					<form onclick="trackPaypalClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=XT60" method="POST">
 						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="10949"
@@ -291,7 +291,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</td>
 				
 				<td class="combopaymentcolumn">
-					<form id="comboform" action="bla" method="POST">
+					<form onclick="trackPaypalClick()" id="comboform" action="bla" method="POST">
 							<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
 							data-amount="14849"
@@ -316,7 +316,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<br><br>
 </div>		
 	
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
+fbq('init', '1417991518214776');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1417991518214776&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<div class="whitebackground sectionheight bottomline">	
+		<div class="centretextalign centretext text1height quotetext textlightgrey">
+			Comments and discussion
+		</div>
+<div id="disqus_thread"></div>
+<script>
 
 
 
