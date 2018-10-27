@@ -1,11 +1,12 @@
 function trackBuyNow()
 {
 fbq('track', 'Lead');
+ga('send', 'event', 'ClickedBuyNow', 'ClickedBuyNow', 'ClickedBuyNow');
 }
 
-function trackPaypalClick()
+function trackPaymentClick()
 {
-	ga('send', 'event', 'Paypal', 'Paypal', 'Paypal');
+	ga('send', 'event', 'ClickedToPay', 'ClickedToPay', 'ClickedToPay');
 }
 
 function startedTyping() {
