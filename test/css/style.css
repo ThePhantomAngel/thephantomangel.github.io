@@ -1,0 +1,242 @@
+/* import Poppins Font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body{
+    font-family: 'Poppins', sans-serif; 
+     font-size: 14px;
+     line-height: 1.1;
+     font-weight: 300;
+     color: white;
+     background-color: rgb(243,243,243);
+}
+
+html{
+    background-color: rgb(243,243,243);
+}
+
+.top-layer-text h1,
+.middle-layer-text h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #212027;
+}
+
+.middle-layer-text h1{
+    margin-top: 150px;
+}
+
+.middle-layer-text .middle-layer-quotes{
+    color: #2787d3;
+}
+
+.middle-layer-text .middle-layer-inc{
+    float: right;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #212027;
+}
+
+h3{
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #212027;
+}
+
+.paragraph1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: 300;
+    color: #212027;
+    font-style: italic;
+    text-align:center;
+    padding:30px 0;
+}
+
+.paragraph2{
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 300;
+    color: #212027;
+}
+
+.container{
+    width:1050px;
+    max-width: 100%;
+}
+
+/* Header navbar */
+
+
+ .btn--blue, 
+ .submit {
+    color: #fff;
+    background: #2787d3;
+}
+
+#homepage-navigation nav a{
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 300;
+    color: #212027;
+}
+
+
+#homepage-navigation .btn, 
+#homepage-navigation .submit {
+    -webkit-appearance: none;
+    outline: none;
+    border: 0;
+    padding: 13.33333px 24px 16px;
+    display: inline-block;
+    text-decoration: none!important;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#navbarNavAltMarkup .nav-item {
+    padding-top: 20px;
+}
+
+ #navbarNavAltMarkup .navigation__download-dropdown span{
+        margin-left: 15px;
+ }
+/* end of header navbar */
+
+/*  */
+.covve-homepage .covve-homepage-top-layer {
+    background: url(./images/covve-bg.png);
+    background-repeat: no-repeat;
+    padding: 15px;
+    background-size: cover;
+}
+.covve-homepage .covve-homepage-middle-layer {
+    background-color: rgb(243,243,243)
+}
+.covve-homepage-top-layer .top-layer.container {
+    margin-top: 150px;
+}
+
+input#edit-phone {
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    width: 70%;
+    color: #666;
+    cursor: text;
+    height: 48px;
+    line-height: 1.6;
+    padding: 0 10.66667px;
+    border: solid 1px #ddd;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#submitButton {
+    border-radius: 50%;
+    color: white;
+    background-color: #2787d3;
+    cursor: pointer;
+    margin: 15px;
+    width: 55px;
+    height: 55px;
+    border: 5px solid rgba(255, 255, 255, 0.26);
+}
+
+#submitButton img{
+    height: auto;
+    width: 70%;
+}
+
+.middle-layer-text img{
+    width: 15%;
+    float: right;
+}
+section.covve-homepage-top-layer {
+    height: 800px;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.download-app{
+    display: flex;
+}
+
+.middle-layer-phone.col-xs-12.col-sm-12.col-md-6.col-lg-6 img{
+    margin-top: -100px;
+}
+.card-1 {
+    height: 360px;
+    width: 360px;
+    padding-left: 10px;
+}
+
+.card-2,
+.card-3,
+.card-4 {
+    height: 360px;
+    width: auto;
+}
+
+.card-1 h4,
+.card-2 h4,
+.card-3 h4,
+.card-4 h4
+{
+    font-family: 'Poppins', sans-serif; 
+  text-align:center;
+  padding:30px 0;
+}
+.card-background{
+    background-color:white;
+    height: 360px;
+    width: auto;
+    padding: 25px;
+}
+
+.bottom-layer {
+    margin: 100px 0;
+}
+
+.image-with-text {
+    margin-top: 125px;
+}
+
+.image-with-text .paragraph1 {
+    margin-top: 50px;
+}
+
+@media (max-width:991px){
+    .card-1,
+    .card-2,
+.card-3,
+.card-4 {
+    margin-bottom: 20px;
+}
+
+.middle-layer-phone.col-xs-12.col-sm-12.col-md-6.col-lg-6 img{
+    margin-top: 0px;
+}
+}
+/*  */
