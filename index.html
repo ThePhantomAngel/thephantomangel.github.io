@@ -4,6 +4,14 @@
       xmlns:fb="https://www.facebook.com/2008/fbml">
 
 <head>
+<!-- Page hiding snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-KH9GXXH':true});</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64830871-2"></script>
 <script>
@@ -11,9 +19,8 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-64830871-2');
+  gtag('config', 'UA-64830871-2', { 'optimize_id': 'GTM-KH9GXXH');
 </script>
-<script src="https://cdn.optimizely.com/js/3358450284.js"></script>
 <meta charset="UTF-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title>Calibrate Inspire, Mavic and Phantom batteries with the Phantom Angel</title>
