@@ -1,10 +1,10 @@
 function trackBuyNow()
 {
-	fbq('track', 'Lead');
 	gtag('event', 'ClickedBuyNow', {
 	  'event_category': 'ClickedBuyNow',
 	  'event_label': 'ClickedBuyNow'
 	});
+	fbq('track', 'Lead');
 }
 
 function trackPaymentClick()
@@ -13,6 +13,7 @@ function trackPaymentClick()
 	  'event_category': 'ClickedToPay',
 	  'event_label': 'ClickedToPay'
 	});
+	fbq('track', 'ClickedToPay');
 }
 
 function startedTyping() {
