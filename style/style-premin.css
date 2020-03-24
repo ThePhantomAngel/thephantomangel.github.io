@@ -483,8 +483,8 @@ img {
 		Display: Inline-Block;
 	}
 	.topbartextright {
-		font-size: 26px;
-		font-weight: 200;
+		font-size: 32px;
+		font-weight: 900;
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
@@ -715,8 +715,8 @@ img {
 		height: 50px;
 	}
 	.topbartextright {
-		font-size: 26px;
-		font-weight: 200;
+		font-size: 32px;
+		font-weight: 900;
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
@@ -927,8 +927,8 @@ img {
 		font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;
 	}
 	.topbartextright {
-		font-size: 26px;
-		font-weight: 200;
+		font-size: 32px;
+		font-weight: 900;
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
