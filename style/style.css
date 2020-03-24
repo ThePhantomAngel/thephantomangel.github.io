@@ -493,7 +493,7 @@ img {
 		margin-left: 10px;
 		height: 30px;
 		text-align:right;
-		margin-top:-40px;
+		margin-top:-50px;
 		margin-right:10px
 	}	
 	.centretext {
@@ -927,7 +927,7 @@ img {
 		font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;
 	}
 	.topbartextright {
-		font-size: 32px;
+		font-size: 26px;
 		font-weight: 900;
 		letter-spacing: -0.02em;
 		text-rendering: optimizeLegibility;
