@@ -58,6 +58,11 @@ h2 {
 	.quotetext {
 			font-size:30px;
 	}
+		.centreimagevsmall {
+		margin-left:auto;
+		margin-right:auto;
+		width:200px;
+	}
 	.centreimage {
 		margin-left:auto;
 		margin-right:auto;
@@ -127,6 +132,13 @@ h2 {
 	.quotetext {
 			font-size:36px;
 	}
+
+	.centreimagevsmall {
+		margin-left:auto;
+		margin-right:auto;
+		width:200px;
+	}
+
 	.centreimage {
 		margin-left:auto;
 		margin-right:auto;
@@ -197,6 +209,16 @@ h2 {
 
 	.quotetext {
 			font-size:42px;
+	}
+		.centreimagevsmall {
+		margin-left:auto;
+		margin-right:auto;
+		width:200px;
+	}
+		.centreimagevsmall {
+		margin-left:auto;
+		margin-right:auto;
+		width:200px;
 	}
 	.centreimage {
 		margin-left:auto;
