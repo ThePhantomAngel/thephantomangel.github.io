@@ -42,6 +42,8 @@
           <button id="basic-photo-button">
             Buy for $<span id="total">5</span>.00
           </button>
+		  
+		  
         </section>
         <div id="error-message"></div>
       </div>
@@ -136,7 +138,7 @@
         stripe
           .redirectToCheckout({
             mode: 'payment',
-            lineItems: [{ price: PRICE_ID, quantity: quantity }],
+            lineItems: [{ price: PRICE_ID, quantity: quantity },{ price: PRICE_ID, quantity: quantity }],
             successUrl:
               DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
             cancelUrl: DOMAIN + "/canceled.html"
