@@ -6,8 +6,8 @@
     <meta name="description" content="A demo of Stripe Payment Intents" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/global.css" />
     <!-- Load Stripe.js on your website. -->
     <script src="https://js.stripe.com/v3/"></script>
   </head>
@@ -140,6 +140,7 @@
           .redirectToCheckout({
             mode: 'payment',
             lineItems: [{ price: PRICE_ID, quantity: quantity },{ price: PRICE_ID2, quantity: quantity }],
+			billing_address_collection='required',
             successUrl:
               DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
             cancelUrl: DOMAIN + "/canceled.html"
