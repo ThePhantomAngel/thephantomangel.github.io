@@ -140,7 +140,7 @@
           .redirectToCheckout({
             mode: 'payment',
             lineItems: [{ price: PRICE_ID, quantity: quantity },{ price: PRICE_ID2, quantity: quantity }],
-			  shippingAddressCollection: {allowedCountries: ['US', 'CA'],}
+			  shippingAddressCollection: {allowedCountries: ['US', 'CA'],},
             successUrl:
               DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
             cancelUrl: DOMAIN + "/canceled.html"
