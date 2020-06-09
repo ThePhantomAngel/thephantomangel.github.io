@@ -57,6 +57,7 @@
       // Replace with a Price for your own product (created either in the Stripe Dashboard or with the API)
       // You can also supply a SKU or Plan ID for 
       var PRICE_ID = "price_1Gs5wEJAtsqAxVCUcNfclMF6";
+	  var PRICE_ID2 = "price_1Gs9ytJAtsqAxVCUbGZEgyZr";
 
       if (PUBLISHABLE_KEY === "pk_1234") {
         console.log(
@@ -138,7 +139,7 @@
         stripe
           .redirectToCheckout({
             mode: 'payment',
-            lineItems: [{ price: PRICE_ID, quantity: quantity },{ price: PRICE_ID, quantity: quantity }],
+            lineItems: [{ price: PRICE_ID, quantity: quantity },{ price: PRICE_ID2, quantity: quantity }],
             successUrl:
               DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
             cancelUrl: DOMAIN + "/canceled.html"
