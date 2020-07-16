@@ -1,3 +1,17 @@
+button{
+	background-color:#ed6c00;
+	color:#FFF;
+	padding:8px 12px;
+	border:0;
+	border-radius:4px;
+	font-size:1em
+}
+
+button:hover{
+	background-color:#E89251;
+	padding:7px 11px;
+}
+
 .mobileprice {
 	display:none;
 }
