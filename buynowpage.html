@@ -15,6 +15,8 @@
 </script>
 
 <script src="scripty.js"></script>
+<script src="https://js.stripe.com/v3/"></script>
+<script src="stripebuttons.js"></script>
 <meta charset="UTF-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title>Inspire, Mavic and Phantom Angel</title>
@@ -49,8 +51,8 @@
 		</div>
 	</div>
 	<div class="floatimagesbuynow">
-		<div class="leftimagesmall">
-			<img src="./images/side.png" alt="Phantom batt">
+		<div class="leftimagelarge">
+			<img src="./images/3dpicrounded.png" alt="Phantom batt">
 		</div>
 	</div>
 	<div class="floatembuynow">
@@ -78,6 +80,27 @@
 	</div>
 </div>	
 
+	<div class="floatimagesbuynow2">
+		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
+			Combo Angel for two types of drones
+			<br>
+			<span class="centretextalign tipcontenttext textlightgrey">Once you place your order I'll email you to ask which two drones<br> you'd like me to make your Angel for!</span>
+		</div>
+		<br/>
+
+		<div class="centretextalign tableuppermargin textlightgrey">
+				<table class="singleangeltable">
+				<tr><td class="angelnamecolumn" > Combo Angel<span class="mobileprice postageprice">$138.99+$18.00 global postage</span></td><td class="pricecolumn priceitself ">$138.99 <br><span class="postageprice">(+$18.00 global postage)</span></td><td class="paymentcolumn">
+						<button onclick="checkout('price_1H9YJnJAtsqAxVCU1QwNfmlO')"
+		>  Checkout
+		</button>			
+				</td></tr>
+				
+				</table>
+		</div>
+
+	</div>
+	<br><br><Br>
 
 <div class="whitebackground sectionheight">	
 
@@ -86,208 +109,79 @@
 		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
 			Angel for one type of drone
 			<br>
-			<span class="centretextalign tipcontenttext textlightgrey">Angels work with all versions of each type of drone.<br/> E.g. the Mavic1 Angel works with all versions of the Mavic 1</span>
+			<span class="centretextalign tipcontenttext textlightgrey">Angels work with all versions of each type of drone.<br/> E.g. the Mavic 2 Angel works with all versions of the Mavic 2</span>
 		</div>
 		<br/>
 
 		<div class="centretextalign tableuppermargin textlightgrey">
 				<table class="singleangeltable">
-				<tr><td class="angelnamecolumn" > Mavic 2<span class="mobileprice postageprice">$109.99+$9.50 global postage</span></td><td class="pricecolumn priceitself ">$109.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Mavic2" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="11949"
-							data-currency="usd"
-							data-name="Mavic 2 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>					
+				<tr><td class="angelnamecolumn" > Mavic 2<span class="mobileprice postageprice">$109.99+$13.00 global postage</span></td><td class="pricecolumn priceitself ">$109.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+							<button onclick="checkout('price_1Gs5wEJAtsqAxVCUcNfclMF6')"
+		>  Checkout
+		</button>				
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Mavic Air <span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=MavicAir" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="10949"
-							data-currency="usd"
-							data-name="Mavic Air Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>
+				<tr><td class="angelnamecolumn" > Mavic Air <span class="mobileprice postageprice">$99.99+$13.00 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+					<button onclick="checkout('price_1H4U2tJAtsqAxVCUJvL0j4Ji')"
+		>  Checkout
+		</button>	
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Mavic 1<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Mavic1" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="10949"
-							data-currency="usd"
-							data-name="Mavic 1 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Mavic 1<span class="mobileprice postageprice">$99.99+$13.00 global postage</span></td><td class="pricecolumn priceitself ">$99.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+						<button onclick="checkout('price_1H5AdLJAtsqAxVCUUu2TtOy8')"
+		>  Checkout
+		</button>			
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Inspire 2<span class="mobileprice postageprice">$119.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$119.99  <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire2" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="12949"
-							data-currency="usd"
-							data-name="Inspire 2 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Inspire 2<span class="mobileprice postageprice">$119.99+$13.00 global postage</span></td><td class="pricecolumn priceitself">$119.99  <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+						<button onclick="checkout('price_1H4U3KJAtsqAxVCUE5PoUFDv')"
+		>  Checkout
+		</button>					
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Inspire 1<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Inspire1" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="10949"
-							data-currency="usd"
-							data-name="Inspire 1 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Inspire 1<span class="mobileprice postageprice">$99.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+					<button onclick="checkout('price_1H9YLHJAtsqAxVCUl2jyphVj')"
+		>  Checkout
+		</button>					
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Phantom 4<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom4" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="10949"
-							data-currency="usd"
-							data-name="Phantom 4 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Phantom 4<span class="mobileprice postageprice">$99.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+					<button onclick="checkout('price_1H9YKcJAtsqAxVCUd8XO4XGF')"
+		>  Checkout
+		</button>			
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Phantom 3<span class="mobileprice postageprice">$89.99+$9.50 global postage</span></td><td class="pricecolumn priceitself">$89.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Phantom3" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="9949"
-							data-currency="usd"
-							data-name="Phantom 3 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Phantom 3<span class="mobileprice postageprice">$89.99+$13.00 global postage</span></td><td class="pricecolumn priceitself">$89.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+						<button onclick="checkout('price_1H4U45JAtsqAxVCUIw1FWIEq')"
+		>  Checkout
+		</button>				
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Matrice 600<span class="mobileprice postageprice">$119.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$119.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice600" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="12949"
-							data-currency="usd"
-							data-name="Matrice 600 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Matrice 600<span class="mobileprice postageprice">$119.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$119.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+							<button onclick="checkout('price_1H4U4QJAtsqAxVCUqarSFjaw')"
+		>  Checkout
+		</button>			
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Matrice 200<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Matrice200" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="10949"
-							data-currency="usd"
-							data-name="Matrice 200 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Matrice 200<span class="mobileprice postageprice">$99.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+					<button onclick="checkout('price_1H4U4iJAtsqAxVCU5Y5iLu1a')"
+		>  Checkout
+		</button>				
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Autel X-Star<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Autel" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="10949"
-							data-currency="usd"
-							data-name="XStar Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Autel X-Star<span class="mobileprice postageprice">$99.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+					<button onclick="checkout('price_1H4U53JAtsqAxVCUyAPqeT16')"
+		>  Checkout
+		</button>				
 				</td></tr>
-				<tr><td class="angelnamecolumn" > Yuneec (all drones)<span class="mobileprice postageprice">$119.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$119.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Yuneec" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="12949"
-							data-currency="usd"
-							data-name="Yuneec Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Yuneec (all drones)<span class="mobileprice postageprice">$119.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$119.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+						<button onclick="checkout('price_1H4U5OJAtsqAxVCUycN2Fga8')"
+		>  Checkout
+		</button>				
 				</td></tr>	
-				<tr><td class="angelnamecolumn" > Freefly Alta 8 and Alta 6<span class="mobileprice postageprice">$119.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$119.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=Alta" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="12949"
-							data-currency="usd"
-							data-name="Alta Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Freefly Alta 8<br>and Alta 6<span class="mobileprice postageprice">$119.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$119.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+					<button onclick="checkout('price_1H4U5qJAtsqAxVCUrt52Ih87')"
+		>  Checkout
+		</button>				
 				</td></tr>		
 			
-				<tr><td class="angelnamecolumn" > Angel with XT-60<span class="mobileprice postageprice">$99.99+$9.50 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$9.50 global postage)</span></td><td class="paymentcolumn">
-					<form onclick="trackPaymentClick()" action="https://wt-b809e76a147c10b17bc1c6ea6f6d8d6c-0.sandbox.auth0-extend.com/thisistheone/payment?description=XT60" method="POST">
-						<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="10949"
-							data-currency="usd"
-							data-name="XT60 Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>				
+				<tr><td class="angelnamecolumn" > Angel with XT-60<span class="mobileprice postageprice">$99.99+$13.00 global postage</span></td><td class="pricecolumn priceitself priceitself">$99.99 <br><span class="postageprice">(+$13.00 global postage)</span></td><td class="paymentcolumn">
+					<button onclick="checkout('price_1H4U6RJAtsqAxVCUuJv4lpgT')"
+		>  Checkout
+		</button>				
 				</td></tr>
+				
 				</table>
 		</div>
 
@@ -296,49 +190,11 @@
 
 
 			<br style="clear: left;" />
-	<br><br>
+
 </div>	
 
-	<div class="floatimagesbuynow2">
-		<div class="centretextalign text1heightbuynow quotetext textlightgrey ">
-			Combo Angel for two types of drone
-			<span class="mobileprice postageprice">$138.99</br>+$12.50 global postage</span>
-			<br>
-			<span id="combosubtext"class="postageprice tipcontenttext">Let me know which two drones you'd like your Combo Angel to support</span>
-		</div>
-		
 
-		<div class="centretextalign tableuppermargin textlightgrey">
-				<table class="comboangeltable">
-				
-				<tr><td class="comboangelnamecolumn" >Combo Angel</td><td class="combopricecolumn priceitself priceitself">$138.99 <br><span class="postageprice">(+$12.50 global postage)</span></td>
-				<td class="comboinputcolumn">
-							
-  				<form>
-					  Please specify two drones: <input style="border-color: #ed6c00; border-style:solid" id="combochoice" type="text" name="combochoice" oninput="startedTyping()"><br>
-					</form>
-				</td>
-				
-				<td class="combopaymentcolumn">
-					<form onclick="trackPaymentClick()" id="comboform" action="bla" method="POST">
-							<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO"
-							data-amount="15149"
-							data-currency="usd"
-							data-name="Combo Angel"
-							data-image="https://phantomangel.rocks/images/logoforstripe.png"
-							data-description="Including global postage"
-							data-shipping-address="true"
-							data-label="Order now"
-							data-locale="auto">
-						</script>
-					</form>
-				</td></tr>
-				</table>
-		</div>
 
-	</div>
-<br><br><br>
 
 
 			<br style="clear: left;" />
