@@ -1,6 +1,8 @@
 function checkout(pricecode)
 {
 	var stripe = Stripe('pk_live_xX2K7YSyzJxNwrbjAQ9YKDJO');
+	trackPaymentClick();
+	
 	stripe.redirectToCheckout(
 		{
 			lineItems: [{price: pricecode, quantity: 1}],
